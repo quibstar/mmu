@@ -1,10 +1,18 @@
 import React, { Component } from 'react';
+import GeoSuggest from '../geosuggest';
+import './search.css';
+
 class Search extends Component {
   constructor(props) {
     super(props);
   }
+
   render() {
-    return <div id="search">Search</div>;
+    return (
+      <div>
+        <GeoSuggest />
+      </div>
+    );
   }
 }
 export default Search;

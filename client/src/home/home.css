@@ -1,0 +1,11 @@
+#home {
+    width: 70%;
+    margin: 10% auto auto;
+    border: 1px solid #efefef;
+    border-radius: 12px;
+    padding: 20px; 
+}
+#home h1 {
+    margin: 0;
+    padding: 0;
+}

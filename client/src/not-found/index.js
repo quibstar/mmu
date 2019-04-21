@@ -9,7 +9,7 @@ class NotFound extends Component {
     return (
       <div className="not-found">
         <h3>Sorry, page not found!</h3>
-        {auth ? <Link to="/dashboard">Dashboard</Link> : <Link to="/">Home</Link>}
+        {auth ? <Link to="/matches">Matches</Link> : <Link to="/">Home</Link>}
       </div>
     );
   }

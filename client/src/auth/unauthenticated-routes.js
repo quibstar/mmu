@@ -26,7 +26,7 @@ export default ({ component: C, props: cProps, ...rest }) => {
         !cProps.isAuthenticated ? (
           <C {...props} {...cProps} />
         ) : (
-          <Redirect to={redirect === '' || redirect === null ? '/dashboard' : redirect} />
+          <Redirect to={redirect === '' || redirect === null ? '/matches' : redirect} />
         )
       }
     />

@@ -1,0 +1,19 @@
+#header {
+    padding: 5px 0;
+    border-bottom: 1px solid #efefef;
+}
+
+.nav-link-container {
+    float: right;
+    display: flex;
+}
+
+.nav-link-container a {
+    text-transform: uppercase;
+    margin: 5px 5px 0 0;
+    display: block;
+}
+
+#avatar {
+    margin-left: 20px;
+}

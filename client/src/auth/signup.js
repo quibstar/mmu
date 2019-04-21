@@ -3,7 +3,7 @@ import { Form, Input, Button, Row, Col, Checkbox, Alert } from 'antd';
 import Network from '../services/network';
 const FormItem = Form.Item;
 
-class RegistrationForm extends Component {
+class SignUp extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -225,4 +225,4 @@ class RegistrationForm extends Component {
   }
 }
 
-export default Form.create()(RegistrationForm);
+export default Form.create()(SignUp);

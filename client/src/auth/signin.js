@@ -13,7 +13,6 @@ class SignIn extends React.Component {
       errorSigningIn: false,
       serverErrors: '',
       serverSuccess: '',
-      toDashboard: false,
     };
   }
 
