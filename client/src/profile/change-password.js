@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-import { Icon, Divider } from 'antd';
 class ChangePassword extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <section>

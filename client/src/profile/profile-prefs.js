@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
-import { Slider, Select, Radio, Input, InputNumber } from 'antd';
+import { Slider, Select, Radio, InputNumber } from 'antd';
 import prefs from './interests';
 import './profile-prefs.css';
 const Option = Select.Option;
 const RadioGroup = Radio.Group;
 
 class ProfilePrefs extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   interests = () => {
     return prefs.map((e, i) => {
       return (

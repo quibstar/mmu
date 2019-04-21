@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Network from '../services/network';
 import './show.css';
-import Card from './card';
 
 import proImage from '../assets/profile.jpg';
 
@@ -45,7 +44,7 @@ class Profile extends Component {
         <div>
           <div className="p-top">
             <div>
-              <img src={proImage} className="p-image" />
+              <img src={proImage} className="p-image" alt="profile image" />
             </div>
             <div>
               <h1>Jane Doe</h1>
